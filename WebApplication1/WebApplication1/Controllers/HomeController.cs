@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
+            //changed on 26/8
             return View();
         }
 
@@ -33,6 +34,13 @@ namespace WebApplication1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
             //amit
+
         }
+        private void test()
+        {
+            //new function
+        }
+
+        //ranjan
     }
 }
